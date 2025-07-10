@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         y: canvas.height / 2 - paddleHeight / 2,
         width: paddleWidth,
         height: paddleHeight,
-        dy: 5
+        dy: 2
     };
     
     // Ball
