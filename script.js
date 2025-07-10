@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Adjust ball angle based on where it hits the paddle
             const hitPosition = (ball.y - playerPaddle.y) / playerPaddle.height;
-            ball.dy = 6 * (hitPosition - 0.5); // Value between -3 and 3
+            ball.dy = 6 * (hitPosition - 0.5); 
         }
         
         // Ball collision with computer paddle
